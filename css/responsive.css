@@ -1,0 +1,50 @@
+/*col-3*/
+@media screen and (max-width: 1000px) {
+	body {
+		overflow-x: hidden;
+	}
+	.col-3 {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+
+
+@media screen and (max-width: 600px) {
+	body {
+		overflow-x: hidden;
+	}
+	.col-3 {
+		width: 100%;
+		margin-bottom: 45px;
+	}
+}
+
+/*col-4*/
+@media screen and (max-width: 1000px) {
+	.col-4 {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+
+
+@media screen and (max-width: 600px) {
+	.col-4 {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.latest .heading-item {
+		display: none;
+	}
+	.latest .content .article {
+		margin-left: 20px;
+        height: 400px;
+	}
+
+	.client .article {
+		margin-left: 15px;
+	}
+
+}
+
