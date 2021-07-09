@@ -1,0 +1,26 @@
+.btn {
+    --ripple-width: 100%;
+    --ripple-time: 0.4s;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: var(--font-weight);
+    font-family: var(--font-family), sans-serif;
+    color: var(--primary-color);
+    fill: var(--primary-color);
+    background: var(--el-gradient2);
+    background: linear-gradient(to right, var(--el-gradient1) 0%, var(--el-gradient2) 100%);
+    text-decoration: none;
+    padding: 0.75em 1.75em;
+    border-radius: var(--el-border-radius-min);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all var(--ripple-time);
+}
+
+.btn:hover {
+  opacity: .8;
+}
