@@ -10,7 +10,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 680px) {
 	body {
 		overflow-x: hidden;
 	}
@@ -18,6 +18,34 @@
 		width: 100%;
 		margin-bottom: 45px;
 	}
+	.team .article {
+		margin-left: 43px;
+    }
+    .col-2 {
+    	width: 100%;
+    	margin-bottom: 30px;
+    }
+    footer .input-box {
+         display: flex;
+    /*flex-direction: column;*/
+         margin-left: 15px;
+    }
+    footer .article {
+    	text-align: center;
+    }
+   	footer .row-item {
+   		padding: 0 20px;
+   		text-align: center;
+   		/*display: none;*/
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+   }
+   footer .footer-left,
+   footer .footer-right {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /*col-4*/
@@ -26,6 +54,10 @@
 		width: 50%;
 		margin-bottom: 30px;
 	}
+
+	/*.team .article {
+		margin-left: 70px;
+    }*/
 }
 
 
@@ -36,14 +68,6 @@
 	}
 	.latest .heading-item {
 		display: none;
-	}
-	.latest .content .article {
-		margin-left: 20px;
-        height: 400px;
-	}
-
-	.client .article {
-		margin-left: 15px;
 	}
 
 }
